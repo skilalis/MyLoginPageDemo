@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#22c8ff"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:hint="Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/nameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="Email"
+        android:id="@+id/signUpEmailEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="Username"
+        android:id="@+id/signUpUsernameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:id="@+id/signUpPasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/signUpButtonId"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Sign up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
